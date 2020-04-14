@@ -18,6 +18,8 @@
 		3E82814D2444C40600D39F79 /* MediaObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82814C2444C40600D39F79 /* MediaObjectModel.swift */; };
 		3E82814F2444EB8D00D39F79 /* URL + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82814E2444EB8D00D39F79 /* URL + Extensions.swift */; };
 		3E82815E2446192400D39F79 /* MediaFeedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E82815C2446192400D39F79 /* MediaFeedDataModel.xcdatamodeld */; };
+		3E82816124461BD500D39F79 /* CDMediaObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82815F24461BD500D39F79 /* CDMediaObject+CoreDataClass.swift */; };
+		3E82816224461BD500D39F79 /* CDMediaObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82816024461BD500D39F79 /* CDMediaObject+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		3E82814C2444C40600D39F79 /* MediaObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaObjectModel.swift; sourceTree = "<group>"; };
 		3E82814E2444EB8D00D39F79 /* URL + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL + Extensions.swift"; sourceTree = SOURCE_ROOT; };
 		3E82815D2446192400D39F79 /* MediaFeedDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaFeedDataModel.xcdatamodel; sourceTree = "<group>"; };
+		3E82815F24461BD500D39F79 /* CDMediaObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDMediaObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3E82816024461BD500D39F79 /* CDMediaObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDMediaObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 		3E8281332444BA6C00D39F79 /* AVFoundation-MediaFeed */ = {
 			isa = PBXGroup;
 			children = (
+				3E82815F24461BD500D39F79 /* CDMediaObject+CoreDataClass.swift */,
+				3E82816024461BD500D39F79 /* CDMediaObject+CoreDataProperties.swift */,
 				3E8281342444BA6C00D39F79 /* AppDelegate.swift */,
 				3E8281362444BA6C00D39F79 /* SceneDelegate.swift */,
 				3E8281382444BA6C00D39F79 /* MediaFeedViewController.swift */,
@@ -155,11 +161,13 @@
 			files = (
 				3E82814B2444C08600D39F79 /* HeaderView.swift in Sources */,
 				3E8281392444BA6C00D39F79 /* MediaFeedViewController.swift in Sources */,
+				3E82816224461BD500D39F79 /* CDMediaObject+CoreDataProperties.swift in Sources */,
 				3E82814F2444EB8D00D39F79 /* URL + Extensions.swift in Sources */,
 				3E8281352444BA6C00D39F79 /* AppDelegate.swift in Sources */,
 				3E8281492444C06200D39F79 /* MediaCell.swift in Sources */,
 				3E8281372444BA6C00D39F79 /* SceneDelegate.swift in Sources */,
 				3E82815E2446192400D39F79 /* MediaFeedDataModel.xcdatamodeld in Sources */,
+				3E82816124461BD500D39F79 /* CDMediaObject+CoreDataClass.swift in Sources */,
 				3E82814D2444C40600D39F79 /* MediaObjectModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
