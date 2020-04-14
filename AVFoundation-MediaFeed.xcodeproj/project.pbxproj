@@ -17,6 +17,7 @@
 		3E82814B2444C08600D39F79 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82814A2444C08600D39F79 /* HeaderView.swift */; };
 		3E82814D2444C40600D39F79 /* MediaObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82814C2444C40600D39F79 /* MediaObjectModel.swift */; };
 		3E82814F2444EB8D00D39F79 /* URL + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E82814E2444EB8D00D39F79 /* URL + Extensions.swift */; };
+		3E82815E2446192400D39F79 /* MediaFeedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E82815C2446192400D39F79 /* MediaFeedDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3E82814A2444C08600D39F79 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		3E82814C2444C40600D39F79 /* MediaObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaObjectModel.swift; sourceTree = "<group>"; };
 		3E82814E2444EB8D00D39F79 /* URL + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL + Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		3E82815D2446192400D39F79 /* MediaFeedDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaFeedDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				3E8281362444BA6C00D39F79 /* SceneDelegate.swift */,
 				3E8281382444BA6C00D39F79 /* MediaFeedViewController.swift */,
 				3E82814C2444C40600D39F79 /* MediaObjectModel.swift */,
+				3E82815C2446192400D39F79 /* MediaFeedDataModel.xcdatamodeld */,
 				3E8281482444C06200D39F79 /* MediaCell.swift */,
 				3E82814E2444EB8D00D39F79 /* URL + Extensions.swift */,
 				3E82814A2444C08600D39F79 /* HeaderView.swift */,
@@ -156,6 +159,7 @@
 				3E8281352444BA6C00D39F79 /* AppDelegate.swift in Sources */,
 				3E8281492444C06200D39F79 /* MediaCell.swift in Sources */,
 				3E8281372444BA6C00D39F79 /* SceneDelegate.swift in Sources */,
+				3E82815E2446192400D39F79 /* MediaFeedDataModel.xcdatamodeld in Sources */,
 				3E82814D2444C40600D39F79 /* MediaObjectModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +358,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E82815C2446192400D39F79 /* MediaFeedDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E82815D2446192400D39F79 /* MediaFeedDataModel.xcdatamodel */,
+			);
+			currentVersion = 3E82815D2446192400D39F79 /* MediaFeedDataModel.xcdatamodel */;
+			path = MediaFeedDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3E8281292444BA6C00D39F79 /* Project object */;
 }
